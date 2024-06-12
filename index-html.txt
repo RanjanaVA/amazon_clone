@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">
+            <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"
+                width="100" alt="">
+        </a>
+        <div class="nav-country">
+            <img src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-location-icon-png-image_855078.jpg"
+                height="20" alt="">
+            <div>
+                <p>Deliver to</p>
+                <h1>Chennai</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-category">
+                <p>All</p>
+                <img src="https://www.kindpng.com/picc/m/111-1119013_downward-arrow-png-drop-down-icon-vector-transparent.png"
+                    height="5" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Amazon">
+            <i class="fa fa-light fa-magnifying-glass" width="80" id="nav-search-icon"></i>
+        </div>
+        <div class="nav-language">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqZSVh-r980BVONEUOxFXzOYmFMYzFqisgllqPHIFxA&s"
+                width="25px">
+            <p>EN</p>
+            <img src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px" alt="">
+        </div>
+        <div class="nav-text">
+            <p><a href="/signin.html">Hello, Sign in</a></p>
+            <h1>Account & Lists <img
+                    src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                    width="15px"></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>& Orders</h1><img
+                src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px"></h1>
+        </div>
+        <a href="/cart.html" class="nav-cart">
+            <img src="https://media.wired.com/photos/59325eba9be5e55af6c246eb/master/pass/amazoncart-feat.jpg"
+                width="35px" alt="">
+            <h4>Cart</h4>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <div>
+            <i class="fa fa-bars" width="25px"></i>
+            <p>All</p>
+        </div>
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+    <div class="header-slider">
+        <a href="#" class="control-prev">&#8594;</a>
+        <a href="#" class="control-next">&#8592;</a>
+        <ul>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/GW/BAU/May/Budget/PC_Hero_3000x1200_BS_PC._CB558386585_.jpg" width="100%" height="500px"
+                class="header-img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200_V3._CB558389732_.jpg" width="100%" height="500px"
+                height="500px" class="header-img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/24/BAU/feb/PC_hero_1_2x_1._CB582889946_.jpg"
+                width="100%" height="500px" class="header-img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/MayART/GW/updated/lifestyle._CB558396106_.png"
+                width="100%" height="500px" class="header-img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/X-GL/Feb5/PC_Hero_1_3000._CB582457311_.jpg"
+                width="100%" height="500px" class="header-img">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/march/brands/GW/Under_1499_Tallhero_3000x1200._CB561212093_.jpg"
+                height="500px" class="header-img">
+        </ul>
+    </div>
+    <div class="box-row header-box">
+        <div class="box-col">
+            <h3>Free international returns</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-9OGo3WBzKiylNeuTdding-KRvemJotm0viMAoF2MQ&s"width="250px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Lunar New Year</h3>
+            <img src="https://images.ctfassets.net/yixw23k2v6vo/ew_article_fid6606_asset/bf50f0363a0f815bd7a099320e8f3977/64477-diabetes_gifts_istock-496765932.jpeg?fm=webp&fit=thumb&q=65&w=492&h=328" width="250px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Toys under $25</h3>
+            <img src="https://www.eurokidsindia.com/blog/wp-content/uploads/2023/11/indoor-toys-ultiple-uses-and-benefits.jpg" width="250px" >
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Deals in PCs</h3>
+            <img src="https://m.media-amazon.com/images/I/51bK4SfEMLL._AC_UF1000,1000_QL80_.jpg" width="250px">
+            <a href="/">Shop More</a>
+        </div>
+    </div>
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Grooming Products</h3>
+            <img src="https://m.media-amazon.com/images/I/61lnYg8QsxL.jpg"width="175px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Latest Devices</h3>
+            <img src="https://help.apple.com/assets/65988116702812A0C90B6A32/6598811A5C669E3A0101B55B/en_US/3282dd82331f4daee118a7a978eecc9b.png" width="180px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Pets food</h3>
+            <img src="https://st.depositphotos.com/1004199/1831/i/450/depositphotos_18317915-stock-photo-cat-and-dog-together-on.jpg" width="250px" >
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Fashion Mart</h3>
+            <img src="https://liquorishonline.com/cdn/shop/articles/LQ_Banner_1400_x_900px_1000x1000.png?v=1678784380" width="250px">
+            <a href="/">Shop More</a>
+        </div>
+    </div>
+    <div class="product-slider">
+        <h2>Best Sellers in Sports & Outdoors</h2>
+        <div class="products">
+            <a href="/product.html">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="130px">
+            </a>
+            <img src="https://m.media-amazon.com/images/I/41NAgWNb3EL._AC_UF894,1000_QL80_DpWeblab_.jpg"width="180px">
+            <img src="https://m.media-amazon.com/images/I/91RmQzKenOL._AC_UF1000,1000_QL80_.jpg"width="172px">
+            <img src="https://m.media-amazon.com/images/I/51d1xo+MUYL.jpg"width="140px">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2024/3/397135917/FJ/NI/BK/1421924/fire-blanket.jpg"width="140px">
+            <img src="https://www.jiomart.com/images/product/original/rvgf3z0wzd/4tens-water-bottles-with-straw-fitness-sports-water-sipper-bottle-for-adults-travel-product-images-orvgf3z0wzd-p597889031-1-202301261134.jpg?im=Resize=(420,420)"width="130px">
+            <img src="https://m.media-amazon.com/images/I/71bbUcCQd7L.jpg"width="140px">
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/25843566/2023/11/10/b42ebc8f-2321-4e1d-944f-2365634d23411699613592008SportsShoes1.jpg"width="105px">
+            <img src="https://m.media-amazon.com/images/I/81+0m0qRcsL._AC_UF1000,1000_QL80_.jpg"width="140px">
+            <img src="https://5.imimg.com/data5/XO/XC/FY/SELLER-31853441/designer-sports-jersey.jpg"width="140px">
+            <img src="https://skmeico.in/cdn/shop/products/2031_5.jpg?v=1705784520&width=1600"width="140px">
+        </div>
+    </div>
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Stationery</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0253/7911/0974/files/Stationery_Items_1024x1024.jpg?v=1632306479"width="220px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Laptops</h3>
+            <img src="https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India-1200x675.jpg" width="250px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Office chairs</h3>
+            <img src="https://www.godrejinterio.com/imagestore/B2C/56101522SD01910/56101522SD01910_A2_546x307.jpg" width="250px" >
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Gaming monitor</h3>
+            <img src="https://cdn.mos.cms.futurecdn.net/rMkhvHJiGizkPMht8iZo3F-1200-80.jpg" width="250px">
+            <a href="/">Shop More</a>
+        </div>
+    </div>
+    <div class="product-slider-with-price">
+        <h2>Deals Under $25</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://urbanjaipur.com/wp-content/uploads/2023/12/anarkali-kurti.jpg"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://img0.junaroad.com/uiproducts/20188107/zoom_0-1692355821.jpg"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://images-static.nykaa.com/uploads/8e542ae7-68ea-4742-b21f-0b26e5ff96f4.jpg?tr=w-300,cm-pad_resize"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/7/TA/XB/YG/5984312/branded-kurtis-500x500.jpg"width=175px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS-MPVguK0kTF5BMXkYZTWhSzZvNVLzLTvlSDZhVhBxkO9uVibcRqftaENhoV2qLvzkaZl8wvQuJ5rE6q4hRCniqSTwanRu7V1UQrtpfZyMdqs"width=180px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://vardanethnic.in/wp-content/uploads/2024/03/Hariyaali-24-Carat-Vol-5-Two-Tone-Rayon-Wholesale-Long-Anarkali-Kurtis-Catalog-5.webp"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://thenmozhidesigns.com/cdn/shop/files/091A7836.jpg?v=1714449642"width=175px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://s3.ap-south-1.amazonaws.com/www.pothysuat.pctestbed.ml/catimg235007.jpg"width=210px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://contents.mediadecathlon.com/p2567760/06cf21e3f5a8a75af7ac0659729255e7/p2567760.jpg?format=auto&quality=70&f=650x0"width=270px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://thehouseofrare.com/cdn/shop/products/ARIAN-GRAPHICDESIGNMENSTSHIRT_-BLACKHERO2.jpg?v=1698322268"width=220px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+        </div>
+    </div>
+    <div class="product-slider">
+        <h2>Best Sellers in Home & Kitchen</h2>
+        <div class="products">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230523/znP0/646cee7042f9e729d7a7effd/-473Wx593H-466187115-multi-MODEL.jpg"width="150px">
+            <img src="https://shubhanjalistore.com/wp-content/uploads/2020/09/Shubhanjali-Evil-Eye-Dream-Catcher-Wall-Hanging-Medium-2.jpg"width="172px">
+            <img src="https://cdn.britannica.com/88/212888-050-6795342C/study-lamp-electrical-cord.jpg"width="150px">
+            <img src="https://www.homestoreandmore.co.uk/dw/image/v2/BCBN_PRD/on/demandware.static/-/Sites-master/default/dw21932c7a/images/Tower-XEC20-3-in-1-Corded-Vacuum-Cleaner-vacuum-cleaners-129668-hi-res-8.jpg"width="150px">
+            <img src="https://slursh.in/cdn/shop/products/04_2bc41167-b202-47c2-a753-d27897d80729_700x700.jpg"width="150px">
+            <img src="https://www.jiomart.com/images/product/original/rvskw2fgbt/specify-plastic-manual-vegetable-chopper-for-kitchen-onion-chopper-onion-cutter-vegetable-cutter-for-kitchen-950-ml-chopper-black-product-images-orvskw2fgbt-p604554958-0-202309130015.jpg?im=Resize=(420,420)"width="150px">
+            <img src="https://m.media-amazon.com/images/I/71lmFBWhE-L.jpg"width="160px">
+            <img src="https://m.media-amazon.com/images/I/61slBB2AM3L.jpg"width="150px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9Z7Tco9fmzQ9nejU-DAkOx4NNYmxfvbT0LD1FnfCZw&s"width="150px">
+        </div>
+    </div>
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Designer bands</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEc9heQCIb8tB-FmmZ4NiG5h3rXNHGZORvCg&s"width="190px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Hand Bags</h3>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/7/NA/DO/NN/99918608/artboard-4-500x500.jpg" width="220px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Earrings</h3>
+            <img src="https://www.lmfj.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Flmfjcom%2F7727e45a-934a-4f51-be6e-f1b8fc7410e4_20221011%2Bearring%2Bdangle.png%3Fauto%3Dcompress%2Cformat&w=3840&q=75" width="220px" >
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Cool accesories</h3>
+            <img src="https://stylereportmagazine.com/wp-content/uploads/2018/08/Kassiday-Oceanside-2-49.jpg" width="200px">
+            <a href="/">Shop More</a>
+        </div>
+    </div>
+    <div class="box-row1">
+        <div class="box-col1">
+            <h3>Under $50 pocket-friendly fashion</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfgl8vUa86ne5w0R1Z35PAhWbosH5-Qbc9JpdIvudkQ&s"width="150px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col1">
+            <h3>Amber Girls| Watch only on miniTV</h3>
+            <iframe src="https://www.youtube.com/embed/wZ9jUIISYy4" width="200px" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+            <a href="/">Watch more free content only on mini tv</a>
+        </div>
+        <div class="box-col1">
+            <h3>Watch bracelet</h3>
+            <img src="https://rukminim2.flixcart.com/image/850/1000/l3xcr680/watch/3/w/e/2-jwbs524-joker-witch-women-original-imagexz8tdvmpfuu.jpeg?q=90&crop=false" width="200px">
+            <a href="/">Shop More</a>
+        </div>
+        <div class="box-col1">
+            <h3>Slippers</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41D8kyQaQpL.jpg" width="200px">
+            <a href="/">Shop More</a>
+        </div>
+    </div>
+    <footer>
+        <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"width="100">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

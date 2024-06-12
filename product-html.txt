@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <nav>
+        <a href="/">
+            <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"
+                width="100" alt="">
+        </a>
+        <div class="nav-country">
+            <img src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-location-icon-png-image_855078.jpg"
+                height="20" alt="">
+            <div>
+                <p>Deliver to</p>
+                <h1>Chennai</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-category">
+                <p>All</p>
+                <img src="https://www.kindpng.com/picc/m/111-1119013_downward-arrow-png-drop-down-icon-vector-transparent.png"
+                    height="5" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Amazon">
+            
+        </div>
+        <div class="nav-language">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqZSVh-r980BVONEUOxFXzOYmFMYzFqisgllqPHIFxA&s"
+                width="25px">
+            <p>EN</p>
+            <img src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px" alt="">
+        </div>
+        <div class="nav-text">
+            <p><a href="/signin.html">Hello, Sign in</a></p>
+            <h1>Account & Lists <img
+                    src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                    width="15px"></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>& Orders</h1><img
+                src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px"></h1>
+        </div>
+        <a href="/cart.html" class="nav-cart">
+            <img src="https://media.wired.com/photos/59325eba9be5e55af6c246eb/master/pass/amazoncart-feat.jpg"
+                width="35px" alt="">
+            <h4>Cart</h4>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <div>
+            <i class="fa fa-bars" width="25px"></i>
+            <p>All</p>
+        </div>
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+    <p class="breadcrum">Video Games> PC > Accessories > Headset</p>
+    <div class="product_display">
+        <div class="product_image">
+            <div class="product_icons">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="30">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="30">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="30">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="30">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="30">
+            </div>
+            <div class="product-main-image">
+                <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg"width="200px">
+            </div>
+        </div>
+        <div class="product_details">
+            <p class="product_title">
+                Boult Audio Anchor Bluetooth Wireless Over Ear Headphones with Mic, Active Noise Cancellation, 30H Playtime, AUX Option, Balanced Audio 40mm Drivers, Voice Assistant Sweatproof Gaming ANC Headphones
+            </p>
+            <p class="brand_store">Visit the BENGOO store</p>
+            <div class="product_rating">
+                <div>
+                    <div>5 <img src="https://media.istockphoto.com/id/1306258842/photo/5-or-five-stars-sign-symbol-on-white-background-illustration-ranking-quality-service-review.webp?b=1&s=170667a&w=0&k=20&c=qzMpLy-D7EQobW_x4LmI_sKTfTCnOmX8I5PEn4kLZGc=" height="20px" width="80px"></div>
+                    <p>104,185 ratings | Search this page</p>
+                </div>
+                <p><span>#1 Best Seller</span> in PC Game Headsets</p>
+                <h5>10k+ bought in past month</h5>
+                <hr>
+            </div>
+            <div class="product_price">
+                <div>
+                    <p>-35%</p>
+                    <h1>$<span>25.99</h1>
+                </div>
+                <h5>List Price: <span>$39.99</span></h5>
+                <p>Get <b>Fast, Free Shipping</b> with <span>Amazon Prime</span></p>
+                <p>Free Returns</p>
+                <p><span>Join Prime to buy this item at $22.99</span></p>
+                <p>Available at a lower price from <span>other sellers </span> that may not offer Prime shipping.</p>
+            </div>
+            <div class="product_color_selection">
+                <p>Color: <b>Blue</b></p>
+                <div class="product_color_options">
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>Black</p>
+                    </div>
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>Green</p>
+                    </div>
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>Pink</p>
+                    </div>
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>Blue</p>
+                    </div>
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>purple</p>
+                    </div>
+                    <div class="option">
+                        <img src="https://cdn1.smartprix.com/rx-iis8FrHnI-w280-h280/zebronics-zeb-aeon-w.jpg" width="30px">
+                        <p>red</p>
+                    </div>
+                </div>
+                <div class="product_info">
+                    <p><b>Brand</b></p> <p>BENGOO</p>
+                    <p><b>Model Name</b></p> <p>G900</p>
+                    <p><b>Color</b></p> <p>Blue</p>
+                    <p><b>Form Factor</b></p> <p>Over Ear</p>
+                    <p><b>Connectivity Technology</b></p> <p>Wired</p>
+                </div>
+                <hr>
+                <div class="product_description">
+                    <h1>About this item</h1>
+                    <ul>
+                        <li>Active Noise Cancellation - Anchor's active noise cancellation allows you to have a better listening experience and focus on what really matters.</li>
+                        <li>30 Hours Playtime - Enjoy an extended listening time with your favorite tracks on repeat with Anchor that boasts of up to 30 hours of playtime.</li>
+                        <li>Mammoth 40mm drivers - Have an exhilarating audio experience with deep, dynamic bass from the 40mm drivers</li>
+                        <li>Gaming Mode - Enjoy a low latency gaming experience with the Game Mode on. With the provision of AUX connectivity, have an even better gaming experience with ANC and ultra-low latency.</li>
+                        <li>Comfort Fit - Wear them for as long as you want. With the comfort fit design, you will barely feel them around your ears.</li>
+                        <li>Voice Assistant - With Anchor's Voice Assistance feature, you can summon Siri and Google Assistant at the touch of a button.</li>
+                        <li>IPX5 Water Resistance - Sweat and rain won't ruin your listening experience with Anchor's IPX5 Water Resistant tech.</li>
+                        <li>boult audio Anchor; earphones; boult audio; boult, boult audio headphones; wireless; wireless earphones; bluetooth; over ear; boult over ear; probass anchor; anchor; boult anchor, active noise cancellation; anc; over ear headphones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="product_purchase">
+                <div class="title">
+                    <h3>Buy new:</h3> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Blue_circle_logo.svg/768px-Blue_circle_logo.svg.png" width="20px">
+                </div>
+                <h1 class="price">$<span>25</span>.99</h1>
+                <div class="gap">
+                    <p>Get <b>Fast, Free Shipping</b> with <span>Amazon Prime</span></p>
+                    <p><span>Free Returns</span></p>
+                </div>
+                <div class="gap">
+                    <p><span>FREE delivery</span> <b>Saturday</b>,</p>
+                    <p><b>January 27</b> on orders shipped by Amazon over $35</p>
+                </div>
+                <div class="gap">
+                    <p>Or fastest delivery <b>Tomorrow</b>, <b>January 23</b> Order within <span>10 hrs 56 mins</span></p>
+                </div>
+                <div class="delivery_location">
+                    <img src="https://i.pinimg.com/736x/70/8f/04/708f04dc59840d0b6e92ef4f4ed967f8.jpg" width="15px">
+                    <p><span>Deliver to Chennai</span></p>
+                </div>
+                <h2 class="product-stock">In Stock</h2>
+                <select class="product-quantity">
+                    <option value="1">Quantity: 1</option>
+                    <option value="2">Quantity: 2</option>
+                    <option value="3">Quantity: 3</option>
+                </select>
+                <button class="btn">Add to cart</button>
+                <button class="btn product-buy">Buy Now</button>
+                <div class="product-seller-info">
+                    <p>Ships from</p> <p><span>Amazon</span></p>
+                    <p>sold by</p> <p><span>Bengoo Inc</span></p>
+                    <p>Returns</p> <p><span>Eligible for return, Refund or Replacement within 30 days of receipt</span></p>
+                    <p>Payment</p> <p><span>Secure transaction</span></p>
+                </div>
+                <hr>
+                <button class="product_addList">Add to List</button>
+
+            </div>
+    </div>
+    <div class="product-slider-with-price">
+        <h2>Related products</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://img0.junaroad.com/uiproducts/18446903/zoom_0-1658835104.jpg"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://www.sassafras.in/cdn/shop/products/SFTOPS40793-1.jpg?v=1666396441"width=200px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://www.jaipuriadaah.com/cdn/shop/products/0D3A9447.jpg?v=1675517337"width=178px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/r/e/red-georgette-floor-length-wedding-wear-anarkali-suit-lstv113260-1.jpg"width=180px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://i.ebayimg.com/images/g/cKcAAOSwuXpkVO-c/s-l1200.webp"width=215px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://www.sonalkabra.com/cdn/shop/products/yellow-cotton-maxi-dress-dress-the-neem-tree-508716.jpg?v=1600541840"width=210px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://muselot.in/cdn/shop/products/Plus-size-t-shirts-_dark-solid-colors_-Coffee-Brown.jpg?v=1625002575&width=1445"width=185px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://images.meesho.com/images/products/374206265/6zazs_512.jpg"width=280px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://i.etsystatic.com/18628324/r/il/73e474/3694077423/il_1080xN.3694077423_klj6.jpg"width=280px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://contents.mediadecathlon.com/p2567760/06cf21e3f5a8a75af7ac0659729255e7/p2567760.jpg?format=auto&quality=70&f=650x0"width=270px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://thehouseofrare.com/cdn/shop/products/ARIAN-GRAPHICDESIGNMENSTSHIRT_-BLACKHERO2.jpg?v=1698322268"width=220px>
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span>List Price:$19.95</p>
+                <h4>This product is best for you</h4>
+            </div>
+        </div>
+    </div>
+    <footer class="product_footer">
+        <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"width="100">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+    <script>
+        const scrollContainer=document.querySelectorAll('.products');
+        for(const item of scrollContainer){
+            item.addEventListener('wheel'),(e)=>{
+                 e.item.preventDefault();
+                 item.scrollLeft +=e.deltaY;
+    }
+}
+    </script>
+</body>
+</html>

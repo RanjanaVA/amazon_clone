@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <nav>
+        <a href="/">
+            <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"
+                width="100" alt="">
+        </a>
+        <div class="nav-country">
+            <img src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-location-icon-png-image_855078.jpg"
+                height="20" alt="">
+            <div>
+                <p>Deliver to</p>
+                <h1>Chennai</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-category">
+                <p>All</p>
+                <img src="https://www.kindpng.com/picc/m/111-1119013_downward-arrow-png-drop-down-icon-vector-transparent.png"
+                    height="5" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Amazon">
+            
+        </div>
+        <div class="nav-language">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqZSVh-r980BVONEUOxFXzOYmFMYzFqisgllqPHIFxA&s"
+                width="25px">
+            <p>EN</p>
+            <img src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px" alt="">
+        </div>
+        <div class="nav-text">
+            <p><a href="/signin.html">Hello, Sign in</a></p>
+            <h1>Account & Lists <img
+                    src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                    width="15px"></h1>
+        </div>
+        <div class="nav-text">
+            <p>Return</p>
+            <h1>& Orders</h1><img
+                src="https://cdn.create.vista.com/api/media/small/471068258/stock-vector-arrow-point-silver-plated-metallic-icon"
+                width="15px"></h1>
+        </div>
+        <a href="" class="nav-cart">
+            <img src="https://media.wired.com/photos/59325eba9be5e55af6c246eb/master/pass/amazoncart-feat.jpg"
+                width="35px" alt="">
+            <h4>Cart</h4>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <div>
+            <i class="fa fa-bars" width="25px"></i>
+            <p>All</p>
+        </div>
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+    </div>
+    <div class="cart">
+        <div class="cart_left">
+            <h1>Shopping cart</h1>
+            <hr>
+            <div class="product_cart_list">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/new-project-2022-10-25t083725-997.jpg?c=1x1&q=h_480,w_480,c_fill" width="180px">
+                <div>
+                     <div class="product_cart_titleprice">
+                        <p>Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue</p>
+                        <p><b>$249.00</b></p>
+                    </div>
+                    <p class="product_cart_bestseller"><span>#1 Best Seller </span> in Computer Tablets</p>
+                    <p class="product_card_stock">In Stock</p>
+                    <p class="product_card_delivery">Free delivery <b>Mon, Jan 31 </b>available at checkout</p>
+                    <p class="product_card_returns">Free Returns &#11191</p>
+                    <p class="product_card_giftoption">Gift options not available. <span>Learn more</span></p>
+                    <div class="product_cart_specs">
+                        <p><b>Style:</b></p><p>Wifi</p>
+                        <p><b>Size:</b></p><p>64GB</p>
+                        <p><b>Color:</b></p><p>Space Gray</p>
+                    </div>
+                    <div class="cart_list_action">
+                        <select>
+                            <option value="1">Qty: 1</option>
+                            <option value="2">Qty: 2</option>
+                            <option value="3">Qty: 3</option>
+                            <option value="4">Qty: 4</option>
+                            <option value="5">Qty: 5</option>
+                        </select>
+                        <hr>
+                        <p class="action_btn">Delete</p>
+                        <hr>
+                        <p class="action_btn">Save for later</p>
+                        <hr>
+                        <p class="action_btn">Compare with similar items</p>
+                        <hr>
+                        <p class="action_btn">Share</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="product_cart_list">
+                <img src="https://m.media-amazon.com/images/I/61vGumezioL._AC_UY327_FMwebp_QL65_.jpg" width="180px">
+                <div>
+                     <div class="product_cart_titleprice">
+                        <p>(Refurbished) Lenovo ThinkPad 6th Gen Intel Core i5 Thin & Light HD Laptop (16GB RAM / 512GB SSD /14" (35.6 cm) HD/Windows 11/MS Office/WiFi/Webcam/Intel Graphics), Black</p>
+                        <p><b>$25.99</b></p>
+                    </div>
+                    <p class="product_cart_bestseller"><span>#1 Best Seller </span> in Computer Tablets</p>
+                    <p class="product_card_stock">In Stock</p>
+                    <p class="product_card_delivery">Free delivery <b>Mon, Jan 31 </b>available at checkout</p>
+                    <p class="product_card_returns">Free Returns &#11191</p>
+                    <p class="product_card_giftoption">Gift options not available. <span>Learn more</span></p>
+                    <div class="product_cart_specs">
+                        <p><b>Style:</b></p><p>Wired</p>
+                        <p><b>Size:</b></p><p>64GB</p>
+                        <p><b>Color:</b></p><p>black</p>
+                    </div>
+                    <div class="cart_list_action">
+                        <select>
+                            <option value="1">Qty: 1</option>
+                            <option value="2">Qty: 2</option>
+                            <option value="3">Qty: 3</option>
+                            <option value="4">Qty: 4</option>
+                            <option value="5">Qty: 5</option>
+                        </select>
+                        <hr>
+                        <p class="action_btn">Delete</p>
+                        <hr>
+                        <p class="action_btn">Save for later</p>
+                        <hr>
+                        <p class="action_btn">Compare with similar items</p>
+                        <hr>
+                        <p class="action_btn">Share</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="cart_list_total">
+                Subtotal(2 items): <b>$274.99</b>
+            </div>
+        </div>
+        <div class="cart_right">
+            <div class="cart_free_delivery">
+                <p>&#x2705</p>
+                <p>Your order qualifies for FREE shipping. <b>Choose this option at checkout.</b> See details</p>
+            </div>
+            <p class="cart_subtotatal">Subtotal (2 items): <b>$274.99</b></p>
+            <p class="cart_right_gift"> <input type="checkbox">This order contains a gift</p>
+            <button>Proceed to checkout</button>
+        </div>
+    </div>
+    <footer class="footer_cart">
+        <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png?strip=all&w=960"width="100">
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
